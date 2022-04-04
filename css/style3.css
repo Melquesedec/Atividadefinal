@@ -1,0 +1,335 @@
+
+.caixas {
+    display: flex;
+    margin: 15px;
+}
+
+.caixa-1 {
+    width: 60%;
+    height: 415px;
+    background: white;
+    color: darkgray;
+    padding: 15px;
+}
+#myChart{
+    width: 90% !important;
+    height: 350px !important;
+}
+
+.texto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.caixa-2-3 {
+    width: 40%;
+    height: 400px;
+    margin-left: 15px;
+    color: darkgray;
+}
+
+.caixa-2 {
+    height: 200px;
+    background: white;
+}
+
+.caixa-3 {
+    height: 200px;
+    background: white;
+    margin-top: 15px;
+}
+
+.linha-texto {
+    padding: 15px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 15px;
+}
+
+.linha-1 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+    margin-right: 30px;
+}
+
+.linha-1 h3 {
+    background: green;
+    width: 72%;
+}
+
+.linha-2 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+}
+
+.linha-2 h3{
+    background: rgb(255, 196, 0);
+    width: 42.6%;
+}
+
+.linha-3 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+    margin-left: 23px;
+}
+
+.linha-3 h3 {
+    background: blue;
+    width: 89.2%;
+}
+
+.linha-3-3 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+    margin-right: 30px;
+}
+
+.linha-3-3 h3 {
+    background: green;
+    width: 65.3%;
+}
+
+hr {
+    margin: 15px;
+}
+  
+.hr1 {
+    border-top: 1px solid #CCC;
+}
+
+/* caixas meio */
+
+.caixas-meio {
+    display: flex;
+}
+
+.meio {
+    background: white;
+    width: 24%;
+    margin: 0px 0px 0px 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.meio p {
+    color: darkgray;
+}
+
+.laranja i {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.rosa i {
+    background: rgb(255, 0, 221);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.vermelho i {
+    background: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.verde i {
+    background: green;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.caixas-baixo {
+    display: flex;
+    padding: 8px;
+    color: darkgray;
+}
+
+.caixa-e {
+    background: white;
+    width: 50%;
+    margin: 7.5px;
+}
+
+.caixa-d {
+    background: white;
+    width: 50%;
+    margin: 7.5px;
+}
+
+.colunas {
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.colun {
+    width: 25%;
+}
+
+.recent {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.colun p {
+    border-top: solid 1px;
+    padding: 10px;
+    border-top: 1px solid #CCC;
+}
+
+@media (max-width:1390px){
+    .meio {
+        width: 23%;
+    }
+
+    .nav-side-bar{
+        position: fixed;
+        min-width: 160px;
+    }
+
+    .menu i {
+        top: 17px;
+    }
+
+    .menu-respon-geral{
+        display: block;
+    }
+    .cabecalho h1{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 798px) {
+    .caixas {
+        display: block;
+    }
+
+    .caixa {
+        font-size: 12px;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .caixa-2-3 {
+        width: auto;
+        margin-left: auto;
+        margin-top: 15px;
+    }
+
+    .caixa-3 {
+        margin: auto;
+    }
+
+    .linhas-cima {
+        margin: 10px;
+    }
+
+    .linha {
+        margin: auto;
+    }
+
+    .caixas-meio {
+        display: block;
+    }
+
+    .meio {
+        width: auto;
+        margin: 15px;
+    }
+
+    .laranja {
+        margin-top: 15px;
+    }
+
+    .caixas-baixo {
+        display: block;
+    }
+
+    .caixa-e {
+        width: auto;
+    }
+
+    .caixa-d {
+        width: auto;
+    }
+
+    .colunas {
+        font-size: 5px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .colun p {
+        padding: 5px;
+    }
+
+    .fa-bars {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 16px;
+        left: 1%;
+        font-size: 30px;
+    }
+
+   
+}
